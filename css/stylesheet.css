@@ -1,0 +1,44 @@
+
+.container{
+    width: 1140px;
+    border: 1px solid black;
+}
+
+.container header {
+  display: flex;
+  justify-content: center;
+}
+.container header img{
+    width: 100%;
+}
+.container-main ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.container-main li{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.container-main li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.name{
+
+    margin-top: 40px;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
