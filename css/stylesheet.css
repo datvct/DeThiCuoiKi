@@ -30,7 +30,14 @@
 
 
 
+.errorborder{
+    border: 1px solid red;
+}
 
+.error{
+    font-size: italic;
+    color: red;
+}
 
 
 

@@ -28,8 +28,7 @@
                     <a data-toggle="modal" data-target="#myModal"  href="">Đặt lịch</a>
                 </li>
             </ul>
-            <table class="table table-striped">
-                <thead>
+            <table class="table table-striped" id="tbl">
                   <tr>
                     <th>STT</th>
                     <th>Mã bệnh nhân</th>
@@ -38,18 +37,16 @@
                     <th>Phụ thu dịch vụ</th>
                     <th>Chuyên khoa</th>
                   </tr>
-                </thead>
-                <tbody>
-                </tbody>
               </table>  
         </div>
-        <footer>
-            <div class="name">
-                <tbody></tbody>
-                <h4>21117961-Văn Công Thành Đạt - DHKTPM17CTT</h4>
+        <div class="row border" style="height: 70px">
+            <div class="col-8">
+
             </div>
-            
-        </footer>
+            <div class="col-4">
+                <h3 class="text-danger">21117961_Văn Công Thành Đạt</h3>
+            </div>
+        </div>
         
     </div>
     <div class="modal fade" id="myModal" role="dialog">
@@ -77,17 +74,17 @@
                     <span id="tbmatkhau" class="text-danger">(*)</span>
                 </div>
                 <div class="form-group">
-                    <label for="txtNgay" class="control-label">Ngày khám</label>
-                    <input type="date" class="form-control" id="txtNgay" placeholder="Nhập sai">
+                    <label for="ngaydat" class="control-label">Ngày khám</label>
+                    <input type="date" class="form-control" id="ngaydat" placeholder="">
                     <span id="tbNgay" class="text-danger">(*)</span>
                 </div>
                 <div class="form-group">
                     <label for="txtloaiDV" class="control-label">Loại dịch vụ</label>
                     <br>
                     <div class="col-xs-12">
-                        <label class="checkbox-inline"><input type="checkbox" value="">Khám bệnh theo yêu cầu</label>
-                        <label class="checkbox-inline" ><input type="checkbox" value="">Điều trị ngoại trú</label>
-                        <label class="checkbox-inline"><input type="checkbox" value="">Bác sĩ theo yêu cầu</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="500000">Khám bệnh theo yêu cầu</label>
+                        <label class="checkbox-inline" ><input type="checkbox" value="500000">Điều trị ngoại trú</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="500000">Bác sĩ theo yêu cầu</label>
                     </div> 
                 </div>    
                 <div class="form-group">
